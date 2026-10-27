@@ -1,0 +1,39 @@
+.auth-row {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.autumn-theme {
+  background-image: url('@/assets/autumn.jpg'); 
+  background-repeat: repeat; 
+  background-attachment: fixed; 
+  background-size: 300px; 
+}
+.winter-theme {
+  background-image: url('@/assets/winter.jpg'); 
+  background-repeat: repeat; 
+  background-attachment: fixed; 
+  background-size: 300px; 
+}
+.spring-theme {
+  background-image: url('@/assets/spring.jpg'); 
+  background-repeat: repeat; 
+  background-attachment: fixed; 
+  background-size: 300px; 
+}
+.summer-theme {
+  background-image: url('@/assets/summer.jpg'); 
+  background-repeat: repeat; 
+  background-attachment: fixed; 
+  background-size: 300px; 
+}
+
+.plant-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.plant-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(25, 135, 84, 0.15) !important;
+}
